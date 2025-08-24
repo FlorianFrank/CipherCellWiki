@@ -14,8 +14,8 @@ function HomepageHeader() {
       <div className="container">
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginLeft: '-5%'}}>
         <img
-          src="/img/logo_white.svg" // adjust the path to your logo
-          alt="Ciphercell Logo"
+          src="img/logo_white.svg"
+          alt="CipherCell Logo"
           style={{ height: '60px' }}
         />
   <Heading as="h1" className={clsx('hero__title', styles.magistralHeading)}>

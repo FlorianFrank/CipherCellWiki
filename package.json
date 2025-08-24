@@ -2,7 +2,7 @@
   "name": "cipher-cell-wiki",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://FlorianFranky.github.io/CipherCellWiki",
+  "homepage": "https://FlorianFrank.github.io/CipherCellWiki",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
