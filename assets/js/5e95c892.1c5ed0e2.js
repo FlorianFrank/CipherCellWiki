@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcipher_cell_wiki=self.webpackChunkcipher_cell_wiki||[]).push([[647],{7121:(e,r,c)=>{c.r(r),c.d(r,{default:()=>n});c(6540);var s=c(4164),i=c(7559),l=c(5500),u=c(2831),a=c(1656),h=c(4848);function n(e){return(0,h.jsx)(l.e3,{className:(0,s.A)(i.G.wrapper.docsPages),children:(0,h.jsx)(a.A,{children:(0,u.v)(e.route.routes)})})}}}]);

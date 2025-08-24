@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcipher_cell_wiki=self.webpackChunkcipher_cell_wiki||[]).push([[789],{5409:(e,c,i)=>{i.r(c),i.d(c,{default:()=>l});i(6540);var s=i(1656),h=i(4848);function l(){return(0,h.jsxs)(s.A,{children:[(0,h.jsx)("h1",{children:"My React page"}),(0,h.jsx)("p",{children:"This is a React page"})]})}}}]);
