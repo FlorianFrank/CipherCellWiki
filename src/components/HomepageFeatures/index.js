@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Modular Architecture',
     Svg: require('@site/static/img/smartfactorycampusnetwork.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Our O-RAN framework is designed with modularity in mind, making it easy to extend, integrate, and customize for your deployment.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Real-Time Performance',
     Svg: require('@site/static/img/smartfactorycampusnetwork.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        High-performance processing ensures low latency and reliable communication for 5G and beyond applications.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Open-Source Ecosystem',
     Svg: require('@site/static/img/smartfactorycampusnetwork.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Leverage an open-source ecosystem that encourages collaboration, experimentation, and rapid innovation in software-defined radios.
       </>
     ),
   },

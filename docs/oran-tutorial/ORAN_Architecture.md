@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Basic Components'
+sidebar_label: 'Components Overview'
 sidebar_position: 1
 ---
 
