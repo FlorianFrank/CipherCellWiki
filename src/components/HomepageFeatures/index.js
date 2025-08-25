@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Real-Time Performance',
-    Svg: require('@site/static/img/smartfactorycampusnetwork.svg').default,
+  //  Svg: require('@site/static/img/smartfactorycampusnetwork.svg').default,
     description: (
       <>
         High-performance processing ensures low latency and reliable communication for 5G and beyond applications.
@@ -32,11 +32,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({/*Svg,*/ title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/*<Svg className={styles.featureSvg} role="img" />*/}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
