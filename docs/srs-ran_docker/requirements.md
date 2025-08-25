@@ -15,7 +15,7 @@ Together, these components allow developers to simulate, monitor, and control a 
 
 ---
 
-## 📦 Required Repositories
+## Required Repositories
 
 ### ORAN SC RIC (Docker)
   [**Link to Github Repository**](https://github.com/srsran/oran-sc-ric)  

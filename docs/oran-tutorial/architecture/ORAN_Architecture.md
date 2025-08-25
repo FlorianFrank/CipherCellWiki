@@ -1,6 +1,6 @@
 ---
-sidebar_label: 'Components Overview'
-sidebar_position: 1
+sidebar_label: 'Architectural Overview'
+sidebar_position: 2
 ---
 
 # Basic Components
@@ -11,11 +11,12 @@ Open Radio Access Network (O-RAN) is an evolving framework that emphasizes openn
 
 - **O-RU (O-RAN Radio Unit):** Handles radio signal transmission and reception at the physical layer.  
 - **O-DU (O-RAN Distributed Unit):** Manages real-time baseband processing and lower-layer protocols.  
-- **O-CU-CP (O-RAN Central Unit – Control Plane):** Responsible for non-real-time control and signaling functions.  
-- **O-CU-UP (O-RAN Central Unit – User Plane):** Manages user data traffic with low latency.  
-- **Near-Real-Time RIC (RAN Intelligent Controller):** Provides policy-driven and AI-assisted optimization for RAN functions.  
+- **O-CU (O-RAN Central Unit):** Focuses on higher-layer protocols and splits into two functional parts:
+    - **O-CU-CP (Control Plane):** Responsible for non-real-time control and signaling functions.  
+    - **O-CU-UP (User Plane):** Manages user data traffic with low latency.  
+- **Near-Real-Time RIC:** Provides policy-driven and AI-assisted optimization for RAN functions.  
 - **Service Management and Orchestration Framework:** Coordinates lifecycle management, network slicing, and resource allocation across O-RAN components.  
 
 This layered approach enables interoperability, vendor flexibility, and the integration of intelligent control for next-generation mobile networks.
 
-
+Next, we will describe each component of this architecture in greater detail.
