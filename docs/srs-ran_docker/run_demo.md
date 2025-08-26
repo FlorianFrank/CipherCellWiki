@@ -4,7 +4,25 @@ title: Execute Demo
 sidebar_position: 5
 ---
 
-After compiling the demo, you can start the components either **manually** or **automatically** using our script.
+After compiling the demo, you can start the components either **manually** or **automatically** using our provided script.
+
+### Start the Demo Automatically
+
+You can launch the entire demo with a single command:
+
+```bash
+cd srsRAN_test_environment/scripts
+./run_all.sh
+```
+
+This script sets up a tmux environment with five terminals, each starting one of the core services:
+    - Near-Real-Time RIC
+    - 5G Core Network
+    - gNB
+    - User Equipment (UE)
+    - Sample xApp
+
+Next, we explain how to start the services manually.
 
 ### Manually Start the Demo
 
