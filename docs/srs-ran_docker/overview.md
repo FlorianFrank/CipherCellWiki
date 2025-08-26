@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 This demo relies on a modular set of components that together provide a complete network simulation and control environment. Each component serves a distinct role. THe components are illustrated in the figure below:

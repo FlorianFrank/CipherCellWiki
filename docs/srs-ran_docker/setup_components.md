@@ -1,20 +1,12 @@
 ---
 id: installation
 title: Installation
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 This chapter explains how to install all components either **automatically** or **manually**.
 
 ## Automated and Guided Installation of All Components
-
-If you haven’t cloned the repository yet, run:
-
-```bash
-git clone https://github.com/CipherCell-DEV/srsRAN_test_environment
-cd srsRAN_test_environment
-git submodule update --init --recursive
-```
 
 This repository provides a collection of scripts designed to **automate the setup of the srsRAN-based test environment**.  
 All necessary scripts can be found in the **`srsRAN_test_environment/scripts`** directory.
@@ -55,3 +47,10 @@ Enter choice (y or n): y
 Compile SRC RIC of build type: 1
 Patching sc-ric docker-compose.yml for macOS systems
 ```
+The main script relies on helper scripts in **scripts/compile**, which use Python to compile individual components while handling error checking and generating log files. The corresponding logs are stored in **scripts/logs/compile**.  
+
+For Docker-based compilation, the script uses the project’s own Dockerfiles when available. If not, custom Dockerfiles are provided, copied into the project folder, and executed during installation. All Dockerfiles are located in the **docker** directory.
+
+### Additional Notes
+
+- The **srsUE** component, found in the [srsRAN_4G project](https://github.com/srsran/srsRAN_4G), cannot be built locally on macOS due to the lack of TUN/TAP support. It must therefore be compiled and run inside a Docker container.

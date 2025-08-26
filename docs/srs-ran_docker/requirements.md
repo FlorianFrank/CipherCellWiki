@@ -4,16 +4,20 @@ title: Prequesites
 sidebar_position: 2
 ---
 
-This page describes all required steps and required packages before installing the test environment.
-We tested our systems on Ubuntu and macOS Systems. 
+This page describes all required steps and packages before installing the test environment.  
+We tested our systems on **Ubuntu** and **macOS**.
 
-More specifically the following versions are tested:
-  - Ubuntu 24.04
-  - macOS Sequoia 15.5
+Tested versions:
+- Ubuntu **24.04**
+- macOS **Sequoia 15.5**
 
-## Install necessary packages
+---
 
-Next, we list all the necessary packages required for either a dockerized or standalone execution.
+# Install Necessary Packages
+
+Below we list all the necessary packages required for either a **dockerized** or **standalone** execution.
+
+---
 
 ### Installing Docker on Ubuntu
 
@@ -60,7 +64,7 @@ sudo apt-get update && sudo apt-get install -y \
 
 **5. Add Current User to Docker Group**
 
-Reloggin is necessary!
+> ⚠️ **Note**: Relogin is required after running this command.
 
 ```bash
 sudo usermod -aG docker $USER
@@ -88,39 +92,11 @@ docker --version
 docker-compose --version
 ```
 
+---
+
 ### Required packages for compiling on Ubuntu without Docker
 
-To run **srsRAN** install the following packages:
-
-```bash
-sudo apt-get install cmake make gcc g++ pkg-config libfftw3-dev libmbedtls-dev libsctp-dev libyaml-cpp-dev
-```
-
-
-## Clone all projects:
-
-Execute the following commands in order to checkout all repositories manually.
-
-```bash
-mkdir srs_ran_docker_demo
-cd srs_ran_docker_demo
-
-git clone git@github.com:srsran/oran-sc-ric.git
-git clone git@github.com:srsran/srsRAN_Project.git
-git clone git@github.com:srsran/srsRAN_4G.git
-git clone git@github.com:xfoukas/srsRAN_Project_jbpf.git
-```
-
-or you can simply checkout our repository: 
-
-```bash
-git clone git@github.com:CipherCell-DEV/srsRAN_test_environment.git
-git submodule update --init --recurcive
-```
-
-## Required dependencies when compiling locally (without Docker)
-
-Install the following packages to compile the srsRAN project on Linux (tested on Ubuntu):
+Install the following packages to compile the *srsRAN project* on Linux (tested on Ubuntu):
 
 ```bash
 sudo apt-get update
@@ -139,12 +115,39 @@ sudo apt-get install -y \
     libsctp-dev
 ```
 
-when using MAC OS the following packages are required, which can be installed for example using Homebrew
+### Terminal Management with tmux
+
+
+To run our example, six terminal windows are required. To organize them efficiently, we use the **tmux** package:
+
+```bash
+sudo apt-get install tmux 
+```
+---
+
+### Installation on macOS
+
+There are two ways to install Docker on macOS:
+
+#### 1. Install via Homebrew
+
+```bash
+brew install --cask docker
+```
+
+#### 2. Install via Official Site
+
+Download and install Docker Desktop directly from the official site:
+[Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac/)
+
+#### Additional Required Packages
+
+When using macOS, the following packages are required. They can be installed with Homebrew:
 
 ```bash
 brew install mbedtls
 brew install yaml-cpp
 brew install libusrsctp
+brew install tmux
 ```
-
-**MAC OS Support is experimental and not fully tested!**
+> ⚠️ **Note**: macOS support is experimental and not fully tested.
