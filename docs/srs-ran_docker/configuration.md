@@ -63,7 +63,7 @@ The gNB requires a configuration file located at **oran-sc-ric/e2-agents/srsRAN/
     device_args: tx_port=tcp://172.28.0.2:2000,rx_port=tcp://172.28.0.2:2001,base_srate=11.52e6
     ```
 
-    ✅ **Tip:** You can also set the `tx_port` to `tcp://0.0.0.0:2000` to listen on all available network interfaces, simplifying connectivity when using Docker networks.
+    ✅ **Hint:** You can also set the `tx_port` to `tcp://0.0.0.0:2000` to listen on all available network interfaces, simplifying connectivity when using Docker networks.
 
     The UE must be configured in the opposite way, as described below.
 
@@ -83,9 +83,18 @@ The gNB requires a configuration file located at **oran-sc-ric/e2-agents/srsRAN/
     - **MCC (Mobile Country Code):** `001`, identifying the country  
     - **MNC (Mobile Network Code):** `01`, identifying the operator
   - **tac:** Tracking Area Code identifying a group of cells. Used for device location tracking, paging, mobility, and handovers. Must match the core network (AMF) configuration.
+  - **pdcch:** Defines the Physical Downlink Control Channel, which carries control information from the gNB to the UE, telling it how and where to receive downlink data and schedule uplink transmissions.
+  - **prach:** Defines the Physical Random Access Channel, used by the UE to initiate communication with the gNB and request uplink resources.
+    - **pdsch:** Physical Downlink Shared Channel used by the gNB to send data to the UE. The `mcs_table` defines the mapping between modulation order and coding rate. `qam64` uses 64-QAM modulation, encoding 6 bits per symbol.  
+    - **pusch:** Physical Uplink Shared Channel used by the UE to send data to the gNB. 
+  - **e2:** Configuration of ther interface and protocol between the RAN nodes (DU/CU) and the RAN Intelligent Controller (RIC).
+    - **Cell configuration and logging:** Defines the NR cell parameters, logging options, and PCAP capture settings.  
+    - **enable_cu_cp_e2/enable_cu_up_e2:** Enable the E2 agent for CU-CP/CU-UP
+    - **e2sm_kpm_enabled:** Enables the KPM (Key Performance Measurement) module in the E2 agent. KPM is explained in `TODO`
+    - **e2sm_rc_enabled:** Enables the RC (RAN Control) service module, allowing the RIC to send control directives to the DU/CU.
+    - **addr:** IP address of the RAN Intelligent Controller (RIC) that the E2 agent connects to (e.g., 10.0.2.10).  
+    - **bind_addr:** Local IP address of the E2 agent used to receive traffic from the RIC (e.g., 10.0.2.1).  
 
-
-  - **Cell configuration and logging:** Defines the NR cell parameters, logging options, and PCAP capture settings.  
 
 
   - **RIC connectivity:** IP of the RIC is `10.0.2.10` and the bind IP for the local gNB agent is `10.0.2.1`.  
@@ -95,16 +104,54 @@ This configuration file is copied during setup to **srsRAN_Project/configs** to 
 
 #### UE Configuration
 
-A second configuration file can be found at **oran-sc-ric/e2-agents/srsRAN/ze_zmq.conf**. This file defines the configuration of the User Equipment (UE).  
+A second configuration file can be found at **oran-sc-ric/e2-agents/srsRAN/ze_zmq.conf**. 
+This file contains settings for the User Equipment (UE) and must be consistent with the configuration of the gNB to ensure proper communication.
+
+
 
 Key settings include:  
-- **Baseband sampling rate:** 11.52 MHz (`srate`).  
-- **Number of antennas:** 1 (`nof_antennas`).  
-- **NR bands:** Band 3 (`bands = 3`) with one active carrier (`nof_carriers = 1`).  
-- **Packet capture:** Can be enabled in the `[pcap]` section.  
-- **Logging:** Configurable in the `[log]` section.  
-- **GUI:** Can be run in graphical (GUI) or console mode.
-- **USIM:** Software-based SIM specifying the UE’s identity (IMSI/IMEI) and authentication keys using the Milenage algorithm.
+    - **[rf]:** Contains the radio frequency configuration, including transmit/receive gains and the number of antennas. It is important to ensure that the sample rate (srate) matches the gNB configuration (in our case, 11.52e6 Hz).
+        > Similar to the gNB configuration, the connection between the gNB and UE must also be properly specified. Since we run our design in two dedicated containers, it is not possible to use the default configuration.
+
+        ```yaml
+        device_name = zmq
+        device_args = tx_port=tcp://127.0.0.1:2001,rx_port=tcp://127.0.0.1:2000,base_srate=11.52e6
+        ```
+
+        Instead, a configuration similar to the gNB setup is required:
+
+        ```yaml
+            device_name = zmq
+            device_args = tx_port=tcp://0.0.0.0:2001,rx_port=tcp://<GNB_IP_ADDRESS>:2000,base_srate=11.52e6
+        ```
+        More specifically, in our setup we use:
+
+        ```yaml
+            device_name = zmq
+            device_args = tx_port=tcp://0.0.0.0:2001,rx_port=tcp://172.28.0.2:2000,base_srate=11.52e6
+        ```
+        ZMQ (ZeroMQ) is used here as a lightweight messaging library to transfer IQ samples between the UE and gNB, as it is supported by srsUE.
+    - **[rat.eutra]:** Contains the LTE Radio Configuration 
+        - *dl_earfcn:* specifies the LTE downlink frequency that the UE should tune to. In this case, 2850 corresponds to a particular LTE band and frequency.
+        - *nof_carriers:* The number of carriers indicates how many component carriers (for carrier aggregation) the UE should use.
+    - **[pcap]:** Defines the package capturing settings
+    - **[usim]: All parameters of the Universal SIM module**
+        - *mode:* Indicates that the module operates in software/emulation mode.
+        - *algo:* `milenage` – the default authentication algorithm standardized by 3GPP.
+        - *opc:* Operator code used by the Milenage algorithm.
+        - *k:* Secret key assigned to the USIM for authentication purposes.
+        - *imsi:* Unique identifier for the mobile subscriber (used for network authentication).
+        - *imei:* Unique identifier for the mobile device (used for device identification and tracking).
+    - **[log]:** Logging settings.
+    - **[rrc]:** Defines the Radio Resource Control (RRC) parameters, managing connection setup, release, mobility, and radio resource configuration. The `release` specifies the 3GPP version (e.g., 15 = 5G New Radio Phase 1), and `ue_category` defines UE capabilities (e.g., 4 = Max DL 150 Mbps, Max UL 50 Mbps, 2x2 MIMO, 20 MHz bandwidth).
+    - **[nas]:** Defines the parameters of the NAS (Non-Access Stratum), which is responsible for mobility management, session management, and authentication. The `apn` specifies the Access Point Name, indicating which packet gateway (PGW) or service to use for Internet or private network access, while `apn_protocol` defines the IP protocol (e.g., IPv4 or IPv6) used for UE addressing.
+    - **[gw]:** Configuration of the gateway interface, which operates within a network namespace and uses a TUN/TAP interface (as described in the run demo section). The `netns` specifies the network namespace for the UE, `ip_devname` defines the virtual network device name (e.g., TUN interface), and `ip_netmask` sets the subnet mask for the interface.
+    - **[gui]:** Can be run in graphical or console mode. 
+    > ⚠️ **Warning:** Docker mode currently does **not** support GUI features. All interactions must be done via the command line or API.
+
+
+        
+
 
 
 Similar to the gNB configuration file, this UE configuration file is copied to **srsRAN_4G/configs** to make it accessible within the Docker environment.
