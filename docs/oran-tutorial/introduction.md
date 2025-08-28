@@ -45,8 +45,16 @@ It focuses on:
 - WG1: Use Cases and Overall Architecture
 - WG3: RAN Management
 - WG7: White-box Hardware
-
+- **WG11: Security Work Group**
 ---
+
+### O-RAN Software Community (OSC)
+- Collaboration between the **O-RAN Alliance** and the **Linux Foundation** supports the development of open-source RAN software.  
+    - The software is released in different versions; the **current release** is the **L release (2025-August-28)**, while the **srsRAN demo** uses an **O-RAN I-release** available at [**oran-sc-ric**](https://github.com/srsran/oran-sc-ric).
+        - Includes components such as the O-RAN Control Unit (O-CU), O-DU High, O-DU Low, Non-RT RIC, Near-RT RIC, sample xApps, SMO (Service Management and Orchestration), and more.
+
+
 
 ### What You Will Learn Next
 In the next section, we will explore the **O-RAN Architecture Overview**, covering its building blocks and how they interact.
+

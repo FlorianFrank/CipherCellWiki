@@ -6,9 +6,6 @@ sidebar_position: 6
 
 The **Near-Real-Time RIC (Near-RT RIC)** is a key component of the O-RAN architecture that enables **intelligent and policy-driven optimization** of the RAN. It operates on timescales ranging from 10 milliseconds to 1 second, allowing it to make near-real-time adjustments to network behavior.
 
-
-![image_overview](/img/near_rt_ric.svg)
-
 #### **Key Responsibilities**
 - **Policy-Based Control:** Implements operator-defined policies to dynamically manage radio resources.
 - **AI/ML-Driven Optimization:** Uses data analytics and machine learning to optimize handovers, traffic steering, interference management, and energy efficiency.
@@ -21,3 +18,14 @@ The **Near-Real-Time RIC (Near-RT RIC)** is a key component of the O-RAN archite
 #### **Deployment Context**
 - Typically deployed at **edge or regional data centers** to balance low latency with centralized intelligence.
 - Supports **multi-vendor environments**, enabling interoperability and flexible deployment of new xApps without vendor lock-in.
+
+
+![image_overview](/img/near_rt_ric.svg)
+
+Internally, the **Near-RT RIC** consists of several key components:
+
+- **Shared Data Layer:** Manages storage, reading, and writing of RAN and UE information.
+- **xApp Subscription Management:** Handles subscription, modification, and termination of event streams for RAN data and control between the Near-RT RIC and xApps.
+- **Messaging Infrastructure:** Facilitates communication among internal functions of the Near-RT RIC.
+- **Conflict Mitigation:** Resolves potentially conflicting control requests from multiple xApps to ensure network stability.
+- **Management Services:** Includes fault, configuration, and performance management. Also handles xApp lifecycle operations, tracing, metrics collection, and logging.

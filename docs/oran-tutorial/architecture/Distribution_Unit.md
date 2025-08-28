@@ -6,7 +6,7 @@ sidebar_position: 4
 
 The **Distributed Unit (DU)** is responsible for **real-time baseband processing** and managing the lower layers of the RAN protocol stack. It sits between the Radio Unit (O-RU) and the Central Unit (O-CU) in the O-RAN architecture.
 
-![image_overview](/img/distribution_unit.pdf)
+![image_overview](/img/distribution_unit.svg)
 
 
 ### **O-DU (O-RAN Distributed Unit)**

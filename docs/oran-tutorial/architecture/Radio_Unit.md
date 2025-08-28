@@ -6,7 +6,7 @@ sidebar_position: 3
 
 The **Radio Unit (RU)** is the component responsible for handling the **radio frequency (RF) functions** in the O-RAN architecture. It operates at the edge of the RAN and directly interfaces with user equipment (UE) over the air interface.
 
-![image_overview](/img/radio_unit.pdf)
+![image_overview](/img/radio_unit.svg)
 
 #### **Key Responsibilities**
 - **RF Transmission and Reception:** Converts digital baseband signals from the Distributed Unit (O-DU) into analog RF signals for over-the-air transmission, and vice versa.

@@ -7,7 +7,7 @@ sidebar_position: 1
 This demo relies on a modular set of components that together provide a complete network simulation and control environment. Each component serves a distinct role. THe components are illustrated in the figure below:
 
 
-![image_overview](/img/experimental_setup_overview.pdf)
+![image_overview](/img/experimental_setup_overview.svg)
 
 - It contains:
     - **Near-Real-Time RIC:** As described in the O-RAN tutorial, the Near-RT RIC is a key component of the O-RAN architecture whose primary purpose is to control and optimize the RAN (gNB) in near real-time. It performs tasks such as dynamic RAN optimization, radio resource management, policy enforcement, and the execution of xApps.

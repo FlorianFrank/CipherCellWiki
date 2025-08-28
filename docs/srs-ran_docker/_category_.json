@@ -1,6 +1,6 @@
 {
   "label": "Setup srsRAN-Based Test Environment",
-  "position": 3,
+  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Tutorial on how to run srsRAN native and in dockerized environments"
