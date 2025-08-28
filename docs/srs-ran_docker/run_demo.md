@@ -192,4 +192,4 @@ sudo ip netns exec ue1 ping -s 60008 -i 0.1 10.45.1.1
 
 You should now see the traffic in the terminal where the xApp is running.
 
-![image_overview](/img/terminal_output_ubuntu.pdf)
+![image_overview](/img/terminal_output_ubuntu.svg)

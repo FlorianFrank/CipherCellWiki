@@ -25,7 +25,7 @@ To separate the different connections, four dedicated networks are defined:
 - **gnb_ue (172.28.0.0/24):** Used exclusively within the srsran_test_environment to link the UE and gNB  
 
 
-![image_overview](/img/docker_interconnection.pdf)
+![image_overview](/img/docker_interconnection.svg)
 
 > ⚠️ **Warning:**  
 > When running on **ARM-based Macs (Apple Silicon)**, you must explicitly set the platform for each Docker container:  

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1148.2 841.1">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st2 {
+        stroke: #000;
+      }
+
+      .st3 {
+        font-family: HelveticaNeue, 'Helvetica Neue';
+      }
+
+      .st3, .st4, .st5 {
+        font-size: 20px;
+      }
+
+      .st6 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st7 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st8 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st9 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st10 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st11 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st12 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st13 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st14 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st15 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st16 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st17 {
+        fill: #52b8c8;
+      }
+
+      .st18 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st19 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st20 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st21 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st22 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st23 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st24 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st25 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st26 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st4 {
+        fill: #fff;
+        font-family: HelveticaNeue-Medium, 'Helvetica Neue';
+        font-weight: 500;
+      }
+
+      .st27 {
+        letter-spacing: 0em;
+      }
+
+      .st28 {
+        letter-spacing: 0em;
+      }
+
+      .st29 {
+        clip-path: url(#clippath);
+      }
+
+      .st5 {
+        font-family: HelveticaNeue-Bold, 'Helvetica Neue';
+        font-weight: 700;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="60.7" y="62.5" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st0" x="306.2" y="62.5" width="224.6" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st0" x="61.5" y="275" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="st0" x="303.6" y="133.3" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="st0" x="61.5" y="133.3" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="st0" x="303.6" y="204.2" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="st0" x="59.9" y="204.6" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="st0" x="850.1" y="275" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st0" x="344.7" y="553.2" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st0" x="584.6" y="553.2" width="223.8" height="47.1"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st0" x="-111.8" y="-117.7" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g class="st29">
+    <path class="st17" d="M79.3,62.5h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8H79.3c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st18">
+    <text class="st4" transform="translate(120.9 93.6)"><tspan x="0" y="0">ric_submgr</tspan></text>
+  </g>
+  <g class="st21">
+    <text class="st3" transform="translate(94 398.5)"><tspan x="0" y="0">static IP E2term: 10.0.2.10</tspan></text>
+    <rect class="st2" x="47" y="5.5" width="502.8" height="402.1"/>
+    <text class="st3" transform="translate(94.1 370.4)"><tspan x="0" y="0">ric_network: 10.0.2.0/24</tspan></text>
+    <text class="st5" transform="translate(51.4 345.8)"><tspan x="0" y="0">Network:</tspan></text>
+    <text class="st3" transform="translate(51.2 30.6)"><tspan x="0" y="0">oran-sc-ric</tspan></text>
+    <path class="st17" d="M324.8,62.5h187.1c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8h-187.1c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st19">
+    <text class="st4" transform="translate(323.5 93.6)"><tspan x="0" y="0">python_xapp_runner</tspan></text>
+  </g>
+  <g class="st20">
+    <path class="st17" d="M80.1,275h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8H80.1c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st26">
+    <text class="st4" transform="translate(124.6 306)"><tspan x="0" y="0">ric_e2term</tspan></text>
+  </g>
+  <g class="st23">
+    <path class="st17" d="M322.2,133.3h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8h-186.3c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st22">
+    <text class="st4" transform="translate(352.7 164.4)"><tspan x="0" y="0">ric_trmgr_sim</tspan></text>
+  </g>
+  <g class="st25">
+    <path class="st17" d="M80.1,133.3h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8H80.1c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st24">
+    <text class="st4" transform="translate(127.6 164.4)"><tspan x="0" y="0">ric_e2mgr</tspan></text>
+  </g>
+  <g class="st11">
+    <path class="st17" d="M322.2,204.2h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8h-186.3c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st8">
+    <text class="st4" transform="translate(363.1 235.2)"><tspan x="0" y="0">ric_appmgr</tspan></text>
+  </g>
+  <g class="st15">
+    <path class="st17" d="M78.5,204.6h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8H78.5c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st13">
+    <text class="st4" transform="translate(126.8 235.7)"><tspan x="0" y="0">ric_dbaas</tspan></text>
+  </g>
+  <g class="st14">
+    <rect class="st2" x="596.8" y="5.5" width="502.8" height="402.1"/>
+    <text class="st3" transform="translate(601.9 30.6)"><tspan x="0" y="0">5gc</tspan></text>
+    <path class="st17" d="M868.7,275h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8h-186.3c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st12">
+    <text class="st4" transform="translate(923.3 306)"><tspan x="0" y="0">5gs_5gc</tspan></text>
+  </g>
+  <g class="st9">
+    <text class="st3" transform="translate(633.2 365.4)"><tspan x="0" y="0">ran: 10.53.1.0/24</tspan></text>
+    <text class="st5" transform="translate(610.6 340.8)"><tspan x="0" y="0">Network:</tspan></text>
+    <text class="st3" transform="translate(635.8 396.5)"><tspan x="0" y="0">metrics: 172.19.1.0/24</tspan></text>
+    <text class="st3" transform="translate(858.5 365.4)"><tspan x="0" y="0">static IP 5gc: 10.53.1.2</tspan></text>
+    <rect class="st2" x="325" y="429" width="502.8" height="402.1"/>
+    <text class="st3" transform="translate(330 454.1)"><tspan x="0" y="0">srsran_test_envi</tspan><tspan class="st28" x="144.8" y="0">r</tspan><tspan class="st27" x="151.1" y="0">onment</tspan></text>
+    <path class="st17" d="M363.3,553.2h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8h-186.3c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st6">
+    <text class="st4" transform="translate(405.1 584.3)"><tspan x="0" y="0">srsran_gnb</tspan></text>
+  </g>
+  <g class="st10">
+    <path class="st17" d="M603.2,553.2h186.3c5.1,0,8.1,0,10.1.8,2.9,1.1,5.2,3.4,6.3,6.3.8,2,.8,5.1.8,10.1v12.6c0,5.1,0,8.1-.8,10.1-1.1,2.9-3.4,5.2-6.3,6.3-2,.8-5.1.8-10.1.8h-186.3c-5.1,0-8.1,0-10.1-.8-2.9-1.1-5.2-3.4-6.3-6.3-.8-2-.8-5.1-.8-10.1v-12.6c0-5.1,0-8.1.8-10.1,1.1-2.9,3.4-5.2,6.3-6.3,2-.8,5.1-.8,10.1-.8Z"/>
+  </g>
+  <g class="st7">
+    <text class="st4" transform="translate(651.4 584.3)"><tspan x="0" y="0">srsran_ue</tspan></text>
+  </g>
+  <g class="st16">
+    <text class="st5" transform="translate(332.9 686.8)"><tspan x="0" y="0">Network:</tspan></text>
+    <text class="st3" transform="translate(355.8 714.8)"><tspan x="0" y="0">ric_network: 10.0.2.0/24</tspan></text>
+    <text class="st3" transform="translate(355.8 740.7)"><tspan x="0" y="0">ran: 10.53.1.0/24</tspan></text>
+    <text class="st3" transform="translate(357.4 797.5)"><tspan x="0" y="0">static IP srsran_ue: </tspan></text>
+    <text class="st3" transform="translate(357.4 819.2)"><tspan x="0" y="0">172.28.0.3</tspan></text>
+    <text class="st3" transform="translate(605.2 714.8)"><tspan x="0" y="0">static IP srsran_gnb: </tspan></text>
+    <text class="st3" transform="translate(605.2 736.5)"><tspan x="0" y="0">172.28.0.2</tspan></text>
+    <text class="st3" transform="translate(605.2 758.1)"><tspan x="0" y="0">10.0.2.3</tspan></text>
+    <text class="st3" transform="translate(605.2 779.8)"><tspan x="0" y="0">10.53.1.3</tspan></text>
+    <text class="st3" transform="translate(355.8 768.7)"><tspan x="0" y="0">gnb_ue: 172.28.0.0/24</tspan></text>
+    <polyline class="st1" points="63 302.8 7.7 302.8 7.7 545.1 7.7 559.2 7.7 577 346.9 577"/>
+    <text class="st3" transform="translate(12.4 568)"><tspan x="0" y="0">E2AP: 10.0.2.3 &lt;-&gt; 10.0.2.10</tspan></text>
+    <polyline class="st1" points="447.4 554.7 447.4 492.5 1139.8 492.5 1139.8 307.9 1139.8 294.4 1071.8 295.4"/>
+    <text class="st3" transform="translate(889.1 483.9)"><tspan x="0" y="0">N2: 10.53.1.3 &lt;-&gt; 10.53.1.2</tspan></text>
+    <polyline class="st1" points="385.9 599.4 385.2 661.7 767.5 661.7 767.5 599.9"/>
+    <text class="st3" transform="translate(452.7 653.4)"><tspan x="0" y="0">172.28.0.2 &lt;-&gt; 172.28.0.3</tspan></text>
+  </g>
+</svg>
