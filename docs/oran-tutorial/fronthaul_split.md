@@ -4,9 +4,7 @@ title: Open Fronthaul Split
 sidebar_position: 6
 ---
 
-In traditional 
-
-Functional splitting in mobile networks was introduced to make the Radio Access Network (RAN) more flexible, scalable, and cost-efficient. In early cellular deployments, the Baseband Unit (BBU) and Remote Radio Head (RRH) were integrated into a single unit at each cell site, tightly coupled and co-located.
+Functional splitting in mobile networks was introduced to make the Radio Access Network (RAN) more flexible, scalable, and cost-efficient, and it is not a new concept. When 3G networks were introduced, the radio unit was divided into two components: the Remote Radio Head (RRH), which contained all radio functions and was positioned close to the antenna, and the Baseband Unit (BBU), which handled baseband processing functions. Each BBU and RRH was connected via a dedicated network segment known as the fronthaul, laying the foundation for more advanced and flexible RAN architectures.
 
 As networks evolved, the BBU and RRH were separated to enable more efficient site deployment and maintenance. To further reduce costs and improve coordination, operators adopted the Centralized RAN (C-RAN) architecture, where multiple BBUs are pooled in a central location and connected to distributed RRHs via high-capacity fronthaul links. This approach allows resource sharing, easier upgrades, and improved coordination between cells, though it introduces a dependency on robust fronthaul connectivity.
 
@@ -18,18 +16,19 @@ However, the distribution of functionalities between the DU and CU can be config
 
 ![split_options](/img/split_option1.svg)
 
+The selection of the functional splits has high influence on **latency, bandwidth and scalability**. 
+
+- **High Layer Split:** Splits close to the RF significantly reduce the bandwidth requirements between components but make the RRH more expensive, as many functions must be executed locally. Implementing CoMP in this scenario is extremely complex. This configuration is suitable for low-latency and edge computing scenarios.
+- **Low Layer Split:** Splits close to the RRC allow the construction of cost-effective RRHs and are ideal for CoMP. However, they require high bandwidth between components and impose tight latency constraints, making them suitable for virtualized RAN, DU deployments, and fronthaul with high-capacity fiber.
+- **Double Split:** A split in the middle of the network stack represents a trade-off between high- and low-layer splits, balancing cost, latency, and bandwidth requirements.
 
 
-Functional split not a new concept. When 3G was introduced a radio unit was split into two componetnts namely 
-    - Radio Unit/Radio Head (RRH) contained all radio functions positioned close to the antenna
-    - BaseBand Unit: baseband processing functions
-    - Each BBU and RRH unit were connected using a new network segment called front haul
+#### Why implement different split architectures?
+- Flexible adoption: Supports a variety of hardware and software implementations.
+- Improved coordination and load management: Enables efficient resource allocation across the network.
+- Adaptation to different use cases: Allows customization for scenarios such as low-latency services, edge computing, or massive MIMO.
+- Virtualization and multi-vendor support: Facilitates network virtualization and avoids vendor lock-in.
 
+#### Common Splits
 
-
-
-Weghaun
-Defines for example a UI is connected to which cell and also which technology is used 5G, 4G etc and also which band which component carrier, etc. 
-
-- Custimization strategy is necessary allowing operatiors to specifiy different objectives of optimization network UE performance
-- Flexible optimization and configuration of polocies 
+![split_options](/img/common_functional_splits.svg)

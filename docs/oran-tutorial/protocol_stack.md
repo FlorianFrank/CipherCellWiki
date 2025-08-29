@@ -15,3 +15,7 @@ Furthermore, the O-CU-CP, O-CU-UP, and O-DU are connected to the Near-Real-Time 
 
 ![image_overview](/img/oran_protocol_stack.svg)
 
+
+More detail on the protocol stack is provided in 
+
+![image_overview](/img/protocol_detail.svg)
