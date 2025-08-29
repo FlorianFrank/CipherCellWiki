@@ -1,133 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1734.4 1002.6">
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 2200 1080">
   <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
   <defs>
     <style>
-      .st0, .st1, .st2, .st3 {
+      .st0, .st1, .st2, .st3, .st4 {
         fill: none;
       }
 
-      .st4 {
+      .st5 {
         fill: #4cabbb;
       }
 
-      .st5 {
+      .st6 {
         fill: #fff;
         font-family: HelveticaNeue-Medium, 'Helvetica Neue';
         font-size: 32px;
         font-weight: 500;
       }
 
-      .st6, .st7 {
+      .st7, .st8 {
         font-family: HelveticaNeue, 'Helvetica Neue';
       }
 
-      .st6, .st8 {
+      .st7, .st9 {
         font-size: 20px;
       }
 
-      .st7 {
+      .st8 {
         font-size: 30px;
       }
 
-      .st1 {
-        stroke: #4cacbc;
-      }
-
-      .st1, .st2 {
-        stroke-width: 5px;
-      }
-
-      .st9 {
-        clip-path: url(#clippath-11);
-      }
-
       .st10 {
-        clip-path: url(#clippath-16);
+        clip-path: url(#clippath-17);
       }
 
       .st11 {
-        clip-path: url(#clippath-10);
+        clip-path: url(#clippath-19);
       }
 
       .st12 {
-        clip-path: url(#clippath-15);
+        clip-path: url(#clippath-11);
       }
 
       .st13 {
-        clip-path: url(#clippath-13);
+        clip-path: url(#clippath-16);
       }
 
       .st14 {
-        clip-path: url(#clippath-14);
+        clip-path: url(#clippath-18);
       }
 
       .st15 {
-        clip-path: url(#clippath-12);
+        clip-path: url(#clippath-10);
       }
 
       .st16 {
-        clip-path: url(#clippath-1);
+        clip-path: url(#clippath-15);
       }
 
       .st17 {
-        clip-path: url(#clippath-3);
+        clip-path: url(#clippath-13);
       }
 
       .st18 {
-        clip-path: url(#clippath-4);
+        clip-path: url(#clippath-14);
       }
 
       .st19 {
-        clip-path: url(#clippath-2);
+        clip-path: url(#clippath-12);
       }
 
       .st20 {
-        clip-path: url(#clippath-7);
+        clip-path: url(#clippath-20);
       }
 
       .st21 {
-        clip-path: url(#clippath-6);
+        clip-path: url(#clippath-21);
       }
 
       .st22 {
-        clip-path: url(#clippath-9);
+        clip-path: url(#clippath-22);
       }
 
       .st23 {
-        clip-path: url(#clippath-8);
+        clip-path: url(#clippath-1);
       }
 
       .st24 {
-        clip-path: url(#clippath-5);
+        clip-path: url(#clippath-3);
       }
 
       .st25 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-4);
       }
 
       .st26 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-2);
       }
 
       .st27 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-7);
       }
 
       .st28 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-6);
       }
 
       .st29 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-9);
       }
 
       .st30 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-8);
       }
 
       .st31 {
-        letter-spacing: 0em;
+        clip-path: url(#clippath-5);
       }
 
       .st32 {
@@ -146,29 +134,69 @@
         letter-spacing: 0em;
       }
 
-      .st2 {
-        stroke-dasharray: 0 15;
-        stroke-dashoffset: .5px;
-        stroke-linecap: round;
-      }
-
-      .st2, .st3 {
-        stroke: #000;
-      }
-
       .st36 {
-        fill: #4cacbc;
+        letter-spacing: 0em;
       }
 
       .st37 {
-        clip-path: url(#clippath);
+        letter-spacing: 0em;
       }
 
       .st38 {
         letter-spacing: 0em;
       }
 
-      .st8 {
+      .st39 {
+        letter-spacing: 0em;
+      }
+
+      .st40 {
+        letter-spacing: 0em;
+      }
+
+      .st41 {
+        letter-spacing: 0em;
+      }
+
+      .st42 {
+        letter-spacing: 0em;
+      }
+
+      .st1 {
+        stroke-dasharray: 0 15;
+      }
+
+      .st1, .st2 {
+        stroke-dashoffset: .5px;
+        stroke-linecap: round;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        stroke: #000;
+      }
+
+      .st1, .st4 {
+        stroke-width: 5px;
+      }
+
+      .st43 {
+        fill: #4cacbc;
+      }
+
+      .st2 {
+        stroke-dasharray: 0 9;
+        stroke-width: 3px;
+      }
+
+      .st44 {
+        clip-path: url(#clippath);
+      }
+
+      .st45 {
+        letter-spacing: 0em;
+      }
+
+      .st9 {
         font-family: HelveticaNeue-Bold, 'Helvetica Neue';
         font-weight: 700;
       }
@@ -178,219 +206,262 @@
       }
     </style>
     <clipPath id="clippath">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-1">
-      <rect class="st0" x="799.7" y="877.2" width="215" height="100"/>
+      <rect class="st0" x="752.8" y="915.6" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-2">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-3">
-      <rect class="st0" x="799.7" y="721" width="215" height="100"/>
+      <rect class="st0" x="752.8" y="759.4" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-4">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-5">
-      <rect class="st0" x="799.7" y="564.7" width="215" height="100"/>
+      <rect class="st0" x="752.8" y="603.1" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-6">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-7">
-      <rect class="st0" x="799.7" y="405" width="215" height="100"/>
+      <rect class="st0" x="752.8" y="443.4" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-8">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-9">
-      <rect class="st0" x="486.6" y="243.8" width="215" height="100"/>
+      <rect class="st0" x="439.8" y="282.2" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-10">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-11">
-      <rect class="st0" x="486.6" y="87.6" width="215" height="100"/>
+      <rect class="st0" x="439.8" y="126" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-12">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-13">
-      <rect class="st0" x="1112.7" y="89" width="215" height="100"/>
+      <rect class="st0" x="1065.9" y="127.4" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-14">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
     </clipPath>
     <clipPath id="clippath-15">
-      <rect class="st0" x="1112.7" y="245.2" width="215" height="100"/>
+      <rect class="st0" x="1065.9" y="283.6" width="215" height="100"/>
     </clipPath>
     <clipPath id="clippath-16">
-      <rect class="st0" width="1920" height="1080"/>
+      <rect class="st0" width="2200" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="st0" x="1800.2" y="139.3" width="316.7" height="73.3"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="st0" width="2200" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="st0" x="1892.7" y="279.8" width="97.1" height="408"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="st0" width="2200" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="st0" width="2200" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="st0" x="1835.1" y="754.4" width="246.8" height="97.1"/>
     </clipPath>
   </defs>
-  <g class="st37">
-    <polyline class="st3" points="917.9 459.9 600.8 459.9 600.8 128.5"/>
-    <polyline class="st3" points="907.7 459.9 1224.8 459.9 1224.8 307"/>
-    <line class="st3" x1="917.2" y1="925.8" x2="1186.3" y2="925.8"/>
-    <line class="st3" x1="1220.2" y1="305.9" x2="1220.2" y2="131.2"/>
-    <line class="st3" x1="907.2" y1="915.8" x2="907.2" y2="458.2"/>
-    <path class="st36" d="M828,877.2h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
-  </g>
-  <g class="st16">
-    <text class="st5" transform="translate(829.2 938.8)"><tspan x="0" y="0">D/A &amp; RFE</tspan></text>
-  </g>
-  <g class="st19">
-    <path class="st36" d="M828,721h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
-  </g>
-  <g class="st17">
-    <text class="st5" transform="translate(874.6 782.6)"><tspan x="0" y="0">PHY</tspan></text>
-  </g>
-  <g class="st18">
-    <path class="st36" d="M828,564.7h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
-  </g>
-  <g class="st24">
-    <text class="st5" transform="translate(870.7 626.4)"><tspan x="0" y="0">MAC</tspan></text>
-  </g>
-  <g class="st21">
-    <path class="st36" d="M828,405h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
-  </g>
-  <g class="st20">
-    <text class="st5" transform="translate(875.2 466.6)"><tspan x="0" y="0">RLC</tspan></text>
+  <g class="st44">
+    <polyline class="st3" points="871.1 498.3 554 498.3 554 166.9"/>
+    <polyline class="st3" points="860.9 498.3 1178 498.3 1178 345.4"/>
+    <line class="st3" x1="870.4" y1="964.2" x2="1139.5" y2="964.2"/>
+    <line class="st3" x1="1173.4" y1="344.3" x2="1173.4" y2="169.6"/>
+    <line class="st3" x1="860.4" y1="954.2" x2="860.4" y2="496.6"/>
+    <path class="st43" d="M781.2,915.6h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
   </g>
   <g class="st23">
-    <path class="st36" d="M515,243.8h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+    <text class="st6" transform="translate(782.4 977.2)"><tspan x="0" y="0">D/A &amp; RFE</tspan></text>
   </g>
-  <g class="st22">
-    <text class="st5" transform="translate(531.9 305.5)"><tspan x="0" y="0">PDCP-U</tspan></text>
+  <g class="st26">
+    <path class="st43" d="M781.2,759.4h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
   </g>
-  <g class="st11">
-    <path class="st36" d="M515,87.6h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  <g class="st24">
+    <text class="st6" transform="translate(827.8 821)"><tspan x="0" y="0">PHY</tspan></text>
   </g>
-  <g class="st9">
-    <text class="st5" transform="translate(550.9 149.2)"><tspan x="0" y="0">SDAP</tspan></text>
+  <g class="st25">
+    <path class="st43" d="M781.2,603.1h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  </g>
+  <g class="st31">
+    <text class="st6" transform="translate(823.9 664.8)"><tspan x="0" y="0">MAC</tspan></text>
+  </g>
+  <g class="st28">
+    <path class="st43" d="M781.2,443.4h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  </g>
+  <g class="st27">
+    <text class="st6" transform="translate(828.4 505)"><tspan x="0" y="0">RLC</tspan></text>
+  </g>
+  <g class="st30">
+    <path class="st43" d="M468.2,282.2h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  </g>
+  <g class="st29">
+    <text class="st6" transform="translate(485.1 343.9)"><tspan x="0" y="0">PDCP-U</tspan></text>
   </g>
   <g class="st15">
-    <path class="st36" d="M1141,89h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
-  </g>
-  <g class="st13">
-    <text class="st5" transform="translate(1186.1 150.6)"><tspan x="0" y="0">RRC</tspan></text>
-  </g>
-  <g class="st14">
-    <path class="st36" d="M1141,245.2h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+    <path class="st43" d="M468.2,126h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
   </g>
   <g class="st12">
-    <text class="st5" transform="translate(1158 306.8)"><tspan x="0" y="0">PDCP-C</tspan></text>
+    <text class="st6" transform="translate(504.1 187.6)"><tspan x="0" y="0">SDAP</tspan></text>
+  </g>
+  <g class="st19">
+    <path class="st43" d="M1094.2,127.4h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  </g>
+  <g class="st17">
+    <text class="st6" transform="translate(1139.3 189)"><tspan x="0" y="0">RRC</tspan></text>
+  </g>
+  <g class="st18">
+    <path class="st43" d="M1094.2,283.6h158.4c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v54.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-158.4c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-54.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  </g>
+  <g class="st16">
+    <text class="st6" transform="translate(1111.2 345.2)"><tspan x="0" y="0">PDCP-C</tspan></text>
+  </g>
+  <g class="st13">
+    <path class="st5" d="M1200.6,1014.7l3.9,15-16.4-8.5,12.6-6.5ZM1171.5,1014.7l12.6,6.5-16.4,8.5,3.8-15ZM1172.7,1013.3h26.9l-13.4,6.9-13.4-6.9ZM1186.1,1001.4l12.9,10h-25.7l12.9-10ZM1195.4,994.2l3.9,15.2-11.7-9.1,7.8-6.1ZM1176.8,994.2l7.8,6.1-11.7,9.1,3.9-15.2ZM1178.5,993.2h15.2l-7.6,5.9-7.6-5.9ZM1186.1,981.5l7.6,9.9h-15.3l7.6-9.9ZM1190.6,975.6l3.3,13-6.7-8.7,3.4-4.3ZM1181.6,975.6l3.4,4.3-6.7,8.7,3.3-13ZM1182.9,974.3h6.4l-3.2,4.2-3.2-4.2ZM1186.1,958l3.7,14.5h-7.4l3.7-14.5ZM1186.1,940.5c-2.7,0-4.8,2.2-4.8,4.8s.8,3,2,3.9l-21.3,82.9h5l19.1-9.9,19.1,9.9h5l-21.3-82.9c1.2-.9,2-2.3,2-3.9,0-2.7-2.2-4.8-4.8-4.8ZM1186.1,926.8c-10.2,0-18.5,8.3-18.5,18.5s3.2,11.9,8.1,15.3l1-4c-3.2-2.7-5.3-6.8-5.3-11.3,0-8.1,6.6-14.7,14.7-14.7,8.1,0,14.7,6.6,14.7,14.7s-2.1,8.6-5.3,11.3l1,4c4.9-3.3,8.1-8.9,8.1-15.3,0-10.2-8.3-18.5-18.5-18.5ZM1186.1,913c-17.8,0-32.3,14.5-32.3,32.3s7.5,23.9,18.3,29.1l1-3.8c-9.2-4.7-15.5-14.3-15.5-25.4,0-15.7,12.8-28.5,28.5-28.5s28.5,12.8,28.5,28.5-6.3,20.6-15.5,25.4l1,3.8c10.8-5.2,18.3-16.3,18.3-29.1,0-17.8-14.5-32.3-32.3-32.3ZM1186.2,899c-25.5,0-46.2,20.7-46.2,46.2s11.5,35.4,28.7,42.7l.8-3.5c-15.8-6.6-25.8-22-25.8-39.2s19-42.4,42.4-42.4,42.4,19,42.4,42.4-10,32.6-25.9,39.2l.8,3.5c17.3-7.2,28.9-23.9,28.9-42.7s-20.7-46.2-46.2-46.2Z"/>
+    <path class="st43" d="M1451,918.1h54.7v97h-54.7v-97ZM1473.5,908.5h9.8c.8,0,1.5.7,1.5,1.5s-.7,1.5-1.5,1.5h-9.8c-.8,0-1.5-.7-1.5-1.5s.7-1.5,1.5-1.5ZM1452.7,900.4c-3.3,0-6.1,2.7-6.1,6.1v118.3c0,3.4,2.7,6.1,6.1,6.1h51.2c3.3,0,6.1-2.7,6.1-6.1v-118.3c0-3.3-2.7-6.1-6.1-6.1h-51.2Z"/>
+    <polyline class="st4" points="1269.5 957.3 1272 957.3 1407.1 957.3 1409.6 957.3"/>
+    <polygon points="1407.1 967.5 1427.5 957.3 1407.1 947.1 1407.1 967.5"/>
+    <polygon points="1272 947.1 1251.6 957.3 1272 967.5 1272 947.1"/>
+    <text class="st9" transform="translate(190.3 939.2)"><tspan x="0" y="0">Digital-to</tspan></text>
+    <text class="st9" transform="translate(278.8 939.2)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(284.3 939.2)"><tspan x="0" y="0">Analog</tspan></text>
+    <text class="st9" transform="translate(351 939.2)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(356.5 939.2)"><tspan x="0" y="0">conversion</tspan></text>
+    <text class="st9" transform="translate(461.7 939.2)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(467.3 939.2)"><tspan x="0" y="0">(DA)</tspan></text>
+    <text class="st9" transform="translate(507.6 939.2)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(513.2 939.2)"><tspan x="0" y="0">&amp;</tspan></text>
+    <text class="st9" transform="translate(526.9 939.2)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(532.5 939.2)"><tspan x="0" y="0">Radio</tspan></text>
+    <text class="st9" transform="translate(588 939.2)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(190.3 961.8)"><tspan x="0" y="0">F</tspan><tspan class="st41" x="11.9" y="0">r</tspan><tspan class="st32" x="19.3" y="0">equency</tspan></text>
+    <text class="st9" transform="translate(290.4 961.8)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(295.9 961.8)"><tspan x="0" y="0">Equipment</tspan></text>
+    <text class="st7" transform="translate(190.3 983.4)"><tspan x="0" y="0">Converts digital baseband signals into analog </tspan></text>
+    <text class="st7" transform="translate(190.3 1005.1)"><tspan x="0" y="0">RF signals</tspan></text>
+    <text class="st9" transform="translate(190.3 773.5)"><tspan x="0" y="0">Physical</tspan></text>
+    <text class="st9" transform="translate(269.9 773.5)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(275.5 773.5)"><tspan x="0" y="0">Layer</tspan></text>
+    <text class="st7" transform="translate(190.3 795.2)"><tspan x="0" y="0">- Implements the physical radio interface as </tspan></text>
+    <text class="st7" transform="translate(190.3 817.7)"><tspan x="0" y="0">de</tspan></text>
+    <text class="st7" transform="translate(212.9 817.7)"><tspan x="0" y="0">ﬁ</tspan></text>
+    <text class="st7" transform="translate(223.3 817.7)"><tspan x="0" y="0">ned by 3GPP (e.g., </tspan><tspan class="st35" x="174.1" y="0">L</tspan><tspan x="183.4" y="0">TE or 5G NR).</tspan></text>
+    <text class="st7" transform="translate(190.3 839.4)"><tspan x="0" y="0">- Handles modulation, channel coding and </tspan></text>
+    <text class="st7" transform="translate(190.3 861)"><tspan x="0" y="0">decoding, HARQ, MIMO or </tspan><tspan class="st41" x="246.7" y="0">r</tspan><tspan x="253.1" y="0">esou</tspan><tspan class="st41" x="296.4" y="0">r</tspan><tspan x="302.7" y="0">ce mapping</tspan></text>
+    <text class="st9" transform="translate(190.3 628.6)"><tspan x="0" y="0">Medium</tspan></text>
+    <text class="st9" transform="translate(267.3 628.6)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(272.9 628.6)"><tspan x="0" y="0">Access</tspan></text>
+    <text class="st9" transform="translate(342.5 628.6)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(348 628.6)"><tspan x="0" y="0">Cont</tspan><tspan class="st41" x="45.9" y="0">r</tspan><tspan x="53.4" y="0">ol</tspan></text>
+    <text class="st7" transform="translate(190.3 650.2)"><tspan x="0" y="0">Schedules </tspan><tspan class="st39" x="99.3" y="0">r</tspan><tspan x="105.6" y="0">esou</tspan><tspan class="st38" x="148.9" y="0">r</tspan><tspan x="155.2" y="0">ces, manages HARQ, and </tspan></text>
+    <text class="st7" transform="translate(190.3 671.9)"><tspan x="0" y="0">maps logical to transport channels; located in </tspan></text>
+    <text class="st7" transform="translate(190.3 693.5)"><tspan x="0" y="0">the O-DU in O-RAN.</tspan></text>
+    <text class="st9" transform="translate(188 458)"><tspan x="0" y="0">Radio</tspan></text>
+    <text class="st9" transform="translate(243.5 458)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(249.1 458)"><tspan x="0" y="0">Link</tspan></text>
+    <text class="st9" transform="translate(289.4 458)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(295 458)"><tspan x="0" y="0">Cont</tspan><tspan class="st41" x="45.9" y="0">r</tspan><tspan x="53.4" y="0">ol</tspan></text>
+    <text class="st7" transform="translate(188 479.6)"><tspan x="0" y="0">Ensu</tspan><tspan class="st38" x="44.5" y="0">r</tspan><tspan x="50.8" y="0">es </tspan><tspan class="st38" x="77.1" y="0">r</tspan><tspan x="83.4" y="0">eliable and o</tspan><tspan class="st38" x="197.1" y="0">r</tspan><tspan x="203.4" y="0">de</tspan><tspan class="st41" x="226" y="0">r</tspan><tspan x="232.3" y="0">ed data </tspan></text>
+    <text class="st7" transform="translate(188 501.3)"><tspan x="0" y="0">delivery by handling segmentation, </tspan></text>
+    <text class="st7" transform="translate(188 522.9)"><tspan class="st38" x="0" y="0">r</tspan><tspan x="6.3" y="0">eassembl</tspan><tspan class="st36" x="91.9" y="0">y</tspan><tspan x="100.4" y="0">, and </tspan><tspan class="st38" x="150.8" y="0">r</tspan><tspan x="157.1" y="0">etransmissions </tspan></text>
+    <text class="st7" transform="translate(188 544.6)"><tspan x="0" y="0">between PDCP and MAC.</tspan></text>
+    <text class="st9" transform="translate(13.4 276.1)"><tspan x="0" y="0">Package</tspan></text>
+    <text class="st9" transform="translate(96.3 276.1)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(101.9 276.1)"><tspan x="0" y="0">Data</tspan></text>
+    <text class="st9" transform="translate(146.7 276.1)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(152.3 276.1)"><tspan x="0" y="0">Conve</tspan><tspan class="st37" x="60.8" y="0">r</tspan><tspan x="68" y="0">gence</tspan></text>
+    <text class="st9" transform="translate(278.8 276.1)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(13.4 298.6)"><tspan x="0" y="0">(User</tspan></text>
+    <text class="st9" transform="translate(64.1 298.6)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(69.7 298.6)"><tspan x="0" y="0">Plane)</tspan></text>
+    <text class="st7" transform="translate(13.4 320.3)"><tspan x="0" y="0">- Handles user data tra</tspan></text>
+    <path d="M226.2,311.5h-3.9v8.8h-1.7v-8.8h-1.7v-1.5h1.7v-1.5c0-.8.2-1.5.7-1.9.5-.4,1.2-.7,2.1-.7s.3,0,.6,0c.2,0,.4,0,.6.1v1.5c-.1,0-.3,0-.5-.1-.2,0-.3,0-.5,0-.4,0-.7,0-1,.2-.2.2-.3.5-.3.9v1.4h3.9v-1.5c0-.8.2-1.5.7-1.9.5-.4,1.2-.7,2.1-.7s.3,0,.5,0c.2,0,.4,0,.6.1v1.5c-.1,0-.3,0-.5-.1-.2,0-.3,0-.5,0-.4,0-.7,0-1,.2-.2.2-.3.5-.3.9v1.4h2v1.5h-2v8.8h-1.7v-8.8ZM233.2,308.1h-1.7v-2.1h1.7v2.1ZM231.5,310h1.7v10.3h-1.7v-10.3Z"/>
+    <text class="st7" transform="translate(234.6 320.3)"><tspan x="0" y="0">c (e.g., Inte</tspan><tspan class="st45" x="99.3" y="0">r</tspan><tspan class="st32" x="106.3" y="0">net, apps, </tspan></text>
+    <text class="st7" transform="translate(13.4 342)"><tspan x="0" y="0">media) </tspan></text>
+    <text class="st7" transform="translate(13.4 363.6)"><tspan x="0" y="0">- performs tasks such as header comp</tspan><tspan class="st40" x="345.7" y="0">r</tspan><tspan x="352" y="0">ession, </tspan></text>
+    <text class="st7" transform="translate(13.4 385.3)"><tspan x="0" y="0">ciphering, sequence numbering and </tspan><tspan class="st41" x="326.8" y="0">r</tspan><tspan x="333.1" y="0">eo</tspan><tspan class="st41" x="355.3" y="0">r</tspan><tspan x="361.6" y="0">dering, </tspan></text>
+    <text class="st7" transform="translate(13.4 406.9)"><tspan x="0" y="0">and duplicate detection.</tspan></text>
+    <text class="st9" transform="translate(1310.7 285.1)"><tspan x="0" y="0">Package</tspan></text>
+    <text class="st9" transform="translate(1393.7 285.1)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1399.2 285.1)"><tspan x="0" y="0">Data</tspan></text>
+    <text class="st9" transform="translate(1444.1 285.1)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1449.6 285.1)"><tspan x="0" y="0">Conve</tspan><tspan class="st37" x="60.8" y="0">r</tspan><tspan x="68" y="0">gence</tspan></text>
+    <text class="st9" transform="translate(1576.1 285.1)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1310.7 307.7)"><tspan x="0" y="0">(Cont</tspan><tspan class="st42" x="51.9" y="0">r</tspan><tspan class="st33" x="59.3" y="0">ol</tspan></text>
+    <text class="st9" transform="translate(1387.4 307.7)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1392.9 307.7)"><tspan x="0" y="0">Plane)</tspan></text>
+    <text class="st7" transform="translate(1310.7 330.2)"><tspan x="0" y="0">- Handles signaling/cont</tspan><tspan class="st41" x="217.8" y="0">r</tspan><tspan x="224.1" y="0">olling messages</tspan></text>
+    <text class="st7" transform="translate(1310.7 351.9)"><tspan x="0" y="0">- Responsible for ciphering and integrity </tspan></text>
+    <text class="st7" transform="translate(1310.7 373.5)"><tspan x="0" y="0">p</tspan><tspan class="st38" x="11.9" y="0">r</tspan><tspan class="st32" x="18.2" y="0">otection, sequence numbering and </tspan></text>
+    <text class="st7" transform="translate(1310.7 395.2)"><tspan x="0" y="0">o</tspan><tspan class="st38" x="11.5" y="0">r</tspan><tspan class="st32" x="17.8" y="0">dering and duplicate detection </tspan></text>
+    <text class="st9" transform="translate(1310.7 129.3)"><tspan x="0" y="0">Package</tspan></text>
+    <text class="st9" transform="translate(1393.7 129.3)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1399.2 129.3)"><tspan x="0" y="0">Data</tspan></text>
+    <text class="st9" transform="translate(1444.1 129.3)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1449.6 129.3)"><tspan x="0" y="0">Conve</tspan><tspan class="st37" x="60.8" y="0">r</tspan><tspan x="68" y="0">gence</tspan></text>
+    <text class="st9" transform="translate(1576.1 129.3)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1310.7 151.9)"><tspan x="0" y="0">(Cont</tspan><tspan class="st42" x="51.9" y="0">r</tspan><tspan class="st33" x="59.3" y="0">ol</tspan></text>
+    <text class="st9" transform="translate(1387.4 151.9)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(1392.9 151.9)"><tspan x="0" y="0">Plane)</tspan></text>
+    <text class="st7" transform="translate(1310.7 173.5)"><tspan x="0" y="0">Manages the UE</tspan><tspan class="st36" x="148.2" y="0">’</tspan><tspan x="152.3" y="0">s radio connection, </tspan></text>
+    <text class="st7" transform="translate(1310.7 195.2)"><tspan x="0" y="0">including setup, </tspan><tspan class="st38" x="147.5" y="0">r</tspan><tspan x="153.8" y="0">elease, mobilit</tspan><tspan class="st34" x="282.3" y="0">y</tspan><tspan x="290.8" y="0">, and </tspan></text>
+    <text class="st7" transform="translate(1310.7 216.9)"><tspan x="0" y="0">con</tspan></text>
+    <text class="st7" transform="translate(1344.1 216.9)"><tspan x="0" y="0">ﬁ</tspan></text>
+    <text class="st7" transform="translate(1354.4 216.9)"><tspan x="0" y="0">guration of radio </tspan><tspan class="st38" x="152.6" y="0">r</tspan><tspan x="158.9" y="0">esou</tspan><tspan class="st38" x="202.2" y="0">r</tspan><tspan x="208.5" y="0">ces between </tspan></text>
+    <text class="st7" transform="translate(1310.7 238.5)"><tspan x="0" y="0">the UE and the base station.</tspan></text>
+    <text class="st9" transform="translate(14.6 151.4)"><tspan x="0" y="0">Service</tspan></text>
+    <text class="st9" transform="translate(85.3 151.4)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(90.9 151.4)"><tspan x="0" y="0">Data</tspan></text>
+    <text class="st9" transform="translate(135.7 151.4)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(141.3 151.4)"><tspan x="0" y="0">Adaptation</tspan></text>
+    <text class="st9" transform="translate(245.7 151.4)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st9" transform="translate(251.2 151.4)"><tspan x="0" y="0">P</tspan><tspan class="st41" x="13.3" y="0">r</tspan><tspan x="20.8" y="0">otocol</tspan></text>
+    <text class="st7" transform="translate(14.6 173.1)"><tspan x="0" y="0">Handles 5G user data by assigning it to the </tspan></text>
+    <text class="st7" transform="translate(14.6 194.8)"><tspan x="0" y="0">right radio bea</tspan><tspan class="st38" x="129.6" y="0">r</tspan><tspan x="135.9" y="0">er based on its priority and </tspan></text>
+    <text class="st7" transform="translate(14.6 216.4)"><tspan x="0" y="0">service </tspan><tspan class="st38" x="68.9" y="0">r</tspan><tspan x="75.2" y="0">equi</tspan><tspan class="st38" x="113.3" y="0">r</tspan><tspan x="119.6" y="0">ements.</tspan></text>
+    <text class="st8" transform="translate(20.6 776.2)"><tspan x="0" y="0">O-RU</tspan></text>
+    <polyline class="st1" points="4.6 726.4 672.6 726.4 672.6 803.7 757.4 803.7"/>
+    <line class="st1" x1="1690.5" y1="424.2" x2="24.2" y2="424.2"/>
+    <text class="st8" transform="translate(20.3 473.9)"><tspan x="0" y="0">O-DU</tspan></text>
+    <line class="st1" x1="857.4" y1="437.8" x2="857.4" y2="122.2"/>
+    <text class="st8" transform="translate(1527.8 80.6)"><tspan x="0" y="0">O-CU-CP</tspan></text>
+    <text class="st8" transform="translate(14.2 115)"><tspan x="0" y="0">O-CU-UP</tspan></text>
+    <text class="st8" transform="translate(1783.8 80.6)"><tspan x="0" y="0">Assignment to OSI Layers</tspan></text>
+    <line class="st2" x1="1721.6" y1="1070" x2="1721.6" y2="10"/>
+    <line class="st2" x1="-3.3" y1="244.7" x2="2175" y2="244.7"/>
+    <path class="st43" d="M1828.4,139.3h260.2c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v27.5c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-260.2c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-27.5c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
   </g>
   <g class="st10">
-    <path class="st4" d="M1241.6,966.6l5.7,22.2-24.3-12.6,18.6-9.6ZM1198.5,966.6l18.6,9.6-24.3,12.6,5.7-22.2ZM1200.2,964.4h39.8l-19.9,10.3-19.9-10.3ZM1220.1,946.8l19.1,14.9h-38.1l19.1-14.9ZM1233.8,936.1l5.8,22.5-17.3-13.5,11.5-9ZM1206.3,936.1l11.6,9-17.3,13.5,5.8-22.5ZM1208.8,934.6h22.6l-11.3,8.8-11.3-8.8ZM1220.1,917.2l11.3,14.7h-22.7l11.3-14.7ZM1226.8,908.6l5,19.3-9.9-12.9,5-6.4ZM1213.4,908.6l5,6.4-9.9,12.9,5-19.3ZM1215.3,906.6h9.5l-4.8,6.2-4.8-6.2ZM1220.1,882.5l5.5,21.4h-11l5.5-21.4ZM1220.1,856.6c-4,0-7.2,3.2-7.2,7.2s1.2,4.5,3,5.8l-31.5,122.9h7.4l28.3-14.7,28.3,14.7h7.4l-31.5-122.9c1.8-1.3,3-3.4,3-5.8,0-4-3.2-7.2-7.2-7.2ZM1220.1,836.3c-15.1,0-27.5,12.3-27.5,27.5s4.7,17.7,12,22.7l1.5-5.9c-4.8-4-7.8-10-7.8-16.7,0-12,9.8-21.8,21.8-21.8s21.8,9.8,21.8,21.8-3,12.7-7.8,16.7l1.5,5.9c7.2-5,12-13.3,12-22.6,0-15.1-12.3-27.5-27.5-27.5ZM1220.1,815.8c-26.4,0-47.9,21.5-47.9,47.9s11.1,35.4,27.2,43.2l1.4-5.6c-13.6-7-22.9-21.3-22.9-37.6,0-23.3,19-42.3,42.3-42.3s42.3,19,42.3,42.3-9.3,30.6-23,37.6l1.4,5.6c16.1-7.8,27.2-24.2,27.2-43.2s-21.5-47.9-47.9-47.9ZM1220.2,795c-37.8,0-68.5,30.7-68.5,68.5s17,52.5,42.6,63.2l1.2-5.2c-23.5-9.8-38.2-32.6-38.2-58.1s28.2-62.9,62.9-62.9,62.9,28.2,62.9,62.9-14.8,48.4-38.4,58.1l1.2,5.2c25.7-10.6,42.8-35.5,42.8-63.3s-30.7-68.5-68.5-68.5Z"/>
-    <path class="st36" d="M1483.8,821.8h82.7v146.7h-82.7v-146.7ZM1517.8,807.4h14.8c1.3,0,2.3,1,2.3,2.3s-1,2.3-2.3,2.3h-14.8c-1.3,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3ZM1486.4,795c-5,0-9.2,4.1-9.2,9.2v179c0,5.1,4.1,9.2,9.2,9.2h77.5c5,0,9.2-4.1,9.2-9.2v-179c0-5-4.1-9.2-9.2-9.2h-77.5Z"/>
-    <polyline class="st1" points="1297.6 916 1300.1 916 1435.2 916 1437.7 916"/>
-    <polygon class="st36" points="1435.2 926.2 1455.6 916 1435.2 905.8 1435.2 926.2"/>
-    <polygon class="st36" points="1300.1 905.8 1279.7 916 1300.1 926.2 1300.1 905.8"/>
-    <text class="st8" transform="translate(237.1 900.8)"><tspan x="0" y="0">Digital-to</tspan></text>
-    <text class="st8" transform="translate(325.6 900.8)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(331.1 900.8)"><tspan x="0" y="0">Analog</tspan></text>
-    <text class="st8" transform="translate(397.8 900.8)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(403.3 900.8)"><tspan x="0" y="0">conversion</tspan></text>
-    <text class="st8" transform="translate(508.5 900.8)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(514.1 900.8)"><tspan x="0" y="0">(DA)</tspan></text>
-    <text class="st8" transform="translate(554.4 900.8)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(560 900.8)"><tspan x="0" y="0">&amp;</tspan></text>
-    <text class="st8" transform="translate(573.7 900.8)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(579.3 900.8)"><tspan x="0" y="0">Radio</tspan></text>
-    <text class="st8" transform="translate(634.8 900.8)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(237.1 923.4)"><tspan x="0" y="0">F</tspan><tspan class="st34" x="11.9" y="0">r</tspan><tspan class="st25" x="19.3" y="0">equency</tspan></text>
-    <text class="st8" transform="translate(337.2 923.4)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(342.7 923.4)"><tspan x="0" y="0">Equipment</tspan></text>
-    <text class="st6" transform="translate(237.1 945)"><tspan x="0" y="0">Converts digital baseband signals into analog </tspan></text>
-    <text class="st6" transform="translate(237.1 966.7)"><tspan x="0" y="0">RF signals</tspan></text>
-    <text class="st8" transform="translate(237.1 735.1)"><tspan x="0" y="0">Physical</tspan></text>
-    <text class="st8" transform="translate(316.7 735.1)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(322.3 735.1)"><tspan x="0" y="0">Layer</tspan></text>
-    <text class="st6" transform="translate(237.1 756.8)"><tspan x="0" y="0">- Implements the physical radio interface as </tspan></text>
-    <text class="st6" transform="translate(237.1 779.3)"><tspan x="0" y="0">de</tspan></text>
-    <text class="st6" transform="translate(259.7 779.3)"><tspan x="0" y="0">ﬁ</tspan></text>
-    <text class="st6" transform="translate(270.1 779.3)"><tspan x="0" y="0">ned by 3GPP (e.g., </tspan><tspan class="st28" x="174.1" y="0">L</tspan><tspan x="183.4" y="0">TE or 5G NR).</tspan></text>
-    <text class="st6" transform="translate(237.1 801)"><tspan x="0" y="0">- Handles modulation, channel coding and </tspan></text>
-    <text class="st6" transform="translate(237.1 822.6)"><tspan x="0" y="0">decoding, HARQ, MIMO or </tspan><tspan class="st34" x="246.7" y="0">r</tspan><tspan x="253.1" y="0">esou</tspan><tspan class="st34" x="296.4" y="0">r</tspan><tspan x="302.7" y="0">ce mapping</tspan></text>
-    <text class="st8" transform="translate(237.1 590.2)"><tspan x="0" y="0">Medium</tspan></text>
-    <text class="st8" transform="translate(314.1 590.2)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(319.7 590.2)"><tspan x="0" y="0">Access</tspan></text>
-    <text class="st8" transform="translate(389.3 590.2)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(394.8 590.2)"><tspan x="0" y="0">Cont</tspan><tspan class="st34" x="45.9" y="0">r</tspan><tspan x="53.4" y="0">ol</tspan></text>
-    <text class="st6" transform="translate(237.1 611.8)"><tspan x="0" y="0">Schedules </tspan><tspan class="st32" x="99.3" y="0">r</tspan><tspan x="105.6" y="0">esou</tspan><tspan class="st31" x="148.9" y="0">r</tspan><tspan x="155.2" y="0">ces, manages HARQ, and </tspan></text>
-    <text class="st6" transform="translate(237.1 633.5)"><tspan x="0" y="0">maps logical to transport channels; located in </tspan></text>
-    <text class="st6" transform="translate(237.1 655.1)"><tspan x="0" y="0">the O-DU in O-RAN.</tspan></text>
-    <text class="st8" transform="translate(234.8 419.6)"><tspan x="0" y="0">Radio</tspan></text>
-    <text class="st8" transform="translate(290.3 419.6)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(295.9 419.6)"><tspan x="0" y="0">Link</tspan></text>
-    <text class="st8" transform="translate(336.2 419.6)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(341.8 419.6)"><tspan x="0" y="0">Cont</tspan><tspan class="st34" x="45.9" y="0">r</tspan><tspan x="53.4" y="0">ol</tspan></text>
-    <text class="st6" transform="translate(234.8 441.2)"><tspan x="0" y="0">Ensu</tspan><tspan class="st31" x="44.5" y="0">r</tspan><tspan x="50.8" y="0">es </tspan><tspan class="st31" x="77.1" y="0">r</tspan><tspan x="83.4" y="0">eliable and o</tspan><tspan class="st31" x="197.1" y="0">r</tspan><tspan x="203.4" y="0">de</tspan><tspan class="st34" x="226" y="0">r</tspan><tspan x="232.3" y="0">ed data </tspan></text>
-    <text class="st6" transform="translate(234.8 462.9)"><tspan x="0" y="0">delivery by handling segmentation, </tspan></text>
-    <text class="st6" transform="translate(234.8 484.5)"><tspan class="st31" x="0" y="0">r</tspan><tspan x="6.3" y="0">eassembl</tspan><tspan class="st29" x="91.9" y="0">y</tspan><tspan x="100.4" y="0">, and </tspan><tspan class="st31" x="150.8" y="0">r</tspan><tspan x="157.1" y="0">etransmissions </tspan></text>
-    <text class="st6" transform="translate(234.8 506.2)"><tspan x="0" y="0">between PDCP and MAC.</tspan></text>
-    <text class="st8" transform="translate(60.2 237.7)"><tspan x="0" y="0">Package</tspan></text>
-    <text class="st8" transform="translate(143.2 237.7)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(148.7 237.7)"><tspan x="0" y="0">Data</tspan></text>
-    <text class="st8" transform="translate(193.5 237.7)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(199.1 237.7)"><tspan x="0" y="0">Conve</tspan><tspan class="st30" x="60.8" y="0">r</tspan><tspan x="68" y="0">gence</tspan></text>
-    <text class="st8" transform="translate(325.6 237.7)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(60.2 260.2)"><tspan x="0" y="0">(User</tspan></text>
-    <text class="st8" transform="translate(110.9 260.2)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(116.5 260.2)"><tspan x="0" y="0">Plane)</tspan></text>
-    <text class="st6" transform="translate(60.2 281.9)"><tspan x="0" y="0">- Handles user data tra</tspan></text>
-    <path d="M273,273h-3.9v8.8h-1.7v-8.8h-1.7v-1.5h1.7v-1.5c0-.8.2-1.5.7-1.9.5-.4,1.2-.7,2.1-.7s.3,0,.6,0c.2,0,.4,0,.5.1v1.5c-.1,0-.3,0-.5-.1-.2,0-.3,0-.5,0-.4,0-.7,0-1,.2-.2.2-.3.5-.3.9v1.4h3.9v-1.5c0-.8.2-1.5.7-1.9.5-.4,1.2-.7,2.1-.7s.3,0,.5,0c.2,0,.4,0,.5.1v1.5c-.1,0-.3,0-.5-.1-.2,0-.3,0-.5,0-.4,0-.7,0-1,.2-.2.2-.3.5-.3.9v1.4h2v1.5h-2v8.8h-1.7v-8.8ZM280,269.7h-1.7v-2.1h1.7v2.1ZM278.3,271.5h1.7v10.3h-1.7v-10.3Z"/>
-    <text class="st6" transform="translate(281.4 281.9)"><tspan x="0" y="0">c (e.g., Inte</tspan><tspan class="st38" x="99.3" y="0">r</tspan><tspan class="st25" x="106.3" y="0">net, apps, </tspan></text>
-    <text class="st6" transform="translate(60.2 303.5)"><tspan x="0" y="0">media) </tspan></text>
-    <text class="st6" transform="translate(60.2 325.2)"><tspan x="0" y="0">- performs tasks such as header comp</tspan><tspan class="st33" x="345.7" y="0">r</tspan><tspan x="352" y="0">ession, </tspan></text>
-    <text class="st6" transform="translate(60.2 346.9)"><tspan x="0" y="0">ciphering, sequence numbering and </tspan><tspan class="st34" x="326.8" y="0">r</tspan><tspan x="333.1" y="0">eo</tspan><tspan class="st34" x="355.3" y="0">r</tspan><tspan x="361.6" y="0">dering, </tspan></text>
-    <text class="st6" transform="translate(60.2 368.5)"><tspan x="0" y="0">and duplicate detection.</tspan></text>
-    <text class="st8" transform="translate(1357.5 246.7)"><tspan x="0" y="0">Package</tspan></text>
-    <text class="st8" transform="translate(1440.5 246.7)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1446.1 246.7)"><tspan x="0" y="0">Data</tspan></text>
-    <text class="st8" transform="translate(1490.9 246.7)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1496.4 246.7)"><tspan x="0" y="0">Conve</tspan><tspan class="st30" x="60.8" y="0">r</tspan><tspan x="68" y="0">gence</tspan></text>
-    <text class="st8" transform="translate(1623 246.7)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1357.5 269.3)"><tspan x="0" y="0">(Cont</tspan><tspan class="st35" x="51.9" y="0">r</tspan><tspan class="st26" x="59.3" y="0">ol</tspan></text>
-    <text class="st8" transform="translate(1434.2 269.3)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1439.8 269.3)"><tspan x="0" y="0">Plane)</tspan></text>
-    <text class="st6" transform="translate(1357.5 291.8)"><tspan x="0" y="0">- Handles signaling/cont</tspan><tspan class="st34" x="217.8" y="0">r</tspan><tspan x="224.1" y="0">olling messages</tspan></text>
-    <text class="st6" transform="translate(1357.5 313.5)"><tspan x="0" y="0">- Responsible for ciphering and integrity </tspan></text>
-    <text class="st6" transform="translate(1357.5 335.1)"><tspan x="0" y="0">p</tspan><tspan class="st31" x="11.9" y="0">r</tspan><tspan class="st25" x="18.2" y="0">otection, sequence numbering and </tspan></text>
-    <text class="st6" transform="translate(1357.5 356.8)"><tspan x="0" y="0">o</tspan><tspan class="st31" x="11.5" y="0">r</tspan><tspan class="st25" x="17.8" y="0">dering and duplicate detection </tspan></text>
-    <text class="st8" transform="translate(1357.5 90.9)"><tspan x="0" y="0">Package</tspan></text>
-    <text class="st8" transform="translate(1440.5 90.9)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1446.1 90.9)"><tspan x="0" y="0">Data</tspan></text>
-    <text class="st8" transform="translate(1490.9 90.9)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1496.4 90.9)"><tspan x="0" y="0">Conve</tspan><tspan class="st30" x="60.8" y="0">r</tspan><tspan x="68" y="0">gence</tspan></text>
-    <text class="st8" transform="translate(1623 90.9)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1357.5 113.5)"><tspan x="0" y="0">(Cont</tspan><tspan class="st35" x="51.9" y="0">r</tspan><tspan class="st26" x="59.3" y="0">ol</tspan></text>
-    <text class="st8" transform="translate(1434.2 113.5)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(1439.8 113.5)"><tspan x="0" y="0">Plane)</tspan></text>
-    <text class="st6" transform="translate(1357.5 135.1)"><tspan x="0" y="0">Manages the UE</tspan><tspan class="st29" x="148.2" y="0">’</tspan><tspan x="152.3" y="0">s radio connection, </tspan></text>
-    <text class="st6" transform="translate(1357.5 156.8)"><tspan x="0" y="0">including setup, </tspan><tspan class="st31" x="147.5" y="0">r</tspan><tspan x="153.8" y="0">elease, mobilit</tspan><tspan class="st27" x="282.3" y="0">y</tspan><tspan x="290.8" y="0">, and </tspan></text>
-    <text class="st6" transform="translate(1357.5 178.5)"><tspan x="0" y="0">con</tspan></text>
-    <text class="st6" transform="translate(1390.9 178.5)"><tspan x="0" y="0">ﬁ</tspan></text>
-    <text class="st6" transform="translate(1401.2 178.5)"><tspan x="0" y="0">guration of radio </tspan><tspan class="st31" x="152.6" y="0">r</tspan><tspan x="158.9" y="0">esou</tspan><tspan class="st31" x="202.2" y="0">r</tspan><tspan x="208.5" y="0">ces between </tspan></text>
-    <text class="st6" transform="translate(1357.5 200.1)"><tspan x="0" y="0">the UE and the base station.</tspan></text>
-    <text class="st8" transform="translate(61.4 113)"><tspan x="0" y="0">Service</tspan></text>
-    <text class="st8" transform="translate(132.1 113)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(137.7 113)"><tspan x="0" y="0">Data</tspan></text>
-    <text class="st8" transform="translate(182.5 113)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(188.1 113)"><tspan x="0" y="0">Adaptation</tspan></text>
-    <text class="st8" transform="translate(292.5 113)"><tspan x="0" y="0"> </tspan></text>
-    <text class="st8" transform="translate(298.1 113)"><tspan x="0" y="0">P</tspan><tspan class="st34" x="13.3" y="0">r</tspan><tspan x="20.8" y="0">otocol</tspan></text>
-    <text class="st6" transform="translate(61.4 134.7)"><tspan x="0" y="0">Handles 5G user data by assigning it to the </tspan></text>
-    <text class="st6" transform="translate(61.4 156.3)"><tspan x="0" y="0">right radio bea</tspan><tspan class="st31" x="129.6" y="0">r</tspan><tspan x="135.9" y="0">er based on its priority and </tspan></text>
-    <text class="st6" transform="translate(61.4 178)"><tspan x="0" y="0">service </tspan><tspan class="st31" x="68.9" y="0">r</tspan><tspan x="75.2" y="0">equi</tspan><tspan class="st31" x="113.3" y="0">r</tspan><tspan x="119.6" y="0">ements.</tspan></text>
-    <text class="st7" transform="translate(67.4 737.8)"><tspan x="0" y="0">O-RU</tspan></text>
-    <polyline class="st2" points="51.4 688 719.4 688 719.4 765.2 804.2 765.2"/>
-    <line class="st2" x1="1737.3" y1="385.8" x2="71" y2="385.8"/>
-    <text class="st7" transform="translate(67.1 435.5)"><tspan x="0" y="0">O-DU</tspan></text>
-    <line class="st2" x1="904.2" y1="399.4" x2="904.2" y2="83.8"/>
-    <text class="st7" transform="translate(1574.6 42.2)"><tspan x="0" y="0">O-CU-CP</tspan></text>
-    <text class="st7" transform="translate(61 43.6)"><tspan x="0" y="0">O-CU-UP</tspan></text>
+    <text class="st6" transform="translate(1842.6 187.5)"><tspan x="0" y="0">OSI Layer 3 - IP</tspan></text>
+  </g>
+  <g class="st14">
+    <path class="st43" d="M1893.2,660.9v-354.1c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1h50c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v354.1c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-50c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5Z"/>
+  </g>
+  <g class="st11">
+    <g class="st20">
+      <text class="st6" transform="translate(1933.3 569.5) rotate(-90)"><tspan x="0" y="0" xml:space="preserve">OSI Layer 2  </tspan></text>
+      <text class="st6" transform="translate(1972.3 599.1) rotate(-90)"><tspan x="0" y="0">Data Link Layer</tspan></text>
+    </g>
+  </g>
+  <g class="st21">
+    <line class="st2" x1="-84.2" y1="713" x2="2154.7" y2="713"/>
+    <line class="st2" x1="-60.2" y1="887.5" x2="2178.7" y2="887.5"/>
+    <path class="st43" d="M1862.1,754.9h192.9c6.7,0,10.8,0,13.5,1.1,3.9,1.4,6.9,4.5,8.3,8.3,1.1,2.7,1.1,6.7,1.1,13.5v50c0,6.7,0,10.8-1.1,13.5-1.4,3.9-4.5,6.9-8.3,8.3-2.7,1.1-6.7,1.1-13.5,1.1h-192.9c-6.7,0-10.8,0-13.5-1.1-3.9-1.4-6.9-4.5-8.3-8.3-1.1-2.7-1.1-6.7-1.1-13.5v-50c0-6.7,0-10.8,1.1-13.5,1.4-3.9,4.5-6.9,8.3-8.3,2.7-1.1,6.7-1.1,13.5-1.1Z"/>
+  </g>
+  <g class="st22">
+    <text class="st6" transform="translate(1872.8 795)"><tspan x="0" y="0" xml:space="preserve">OSI Layer 1  </tspan></text>
+    <text class="st6" transform="translate(1851.2 834)"><tspan x="0" y="0">Physical Layer</tspan></text>
   </g>
 </svg>
