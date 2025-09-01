@@ -16,6 +16,28 @@ Furthermore, the O-CU-CP, O-CU-UP, and O-DU are connected to the Near-Real-Time 
 ![image_overview](/img/oran_protocol_stack.svg)
 
 
-More detail on the protocol stack is provided in 
+However, the above-mentioned protocols only offer a **coarse-grained overview**.  
+To enable a more **fine-grained analysis**, the protocol stack is further structured as presented in the subsequent figure.
+
 
 ![image_overview](/img/protocol_detail.svg)
+
+Within the **PDCP (Packet Data Convergence Protocol) layer**, the processing is further subdivided into five distinct stages:
+
+- **Retransmission Buffer**: Stores PDCP Protocol Data Units (PDUs) for potential retransmission, ensuring reliability in acknowledged modes.  
+- **Numbering**: Assigns sequence numbers to PDUs to support in-order delivery and duplicate detection.  
+- **Header Compression**: Reduces protocol overhead (e.g., IP headers) using schemes such as Robust Header Compression (ROHC), thereby improving spectral efficiency.  
+- **Ciphering**: Applies encryption to protect the confidentiality of user plane and control plane data.  
+- **Add PDCP Header**: Appends the PDCP-specific header to each PDU, carrying information such as sequence numbers and control fields.
+
+The **RLC (Radio Link Control)** layer is subdivided into a **High RLC** and a **Low RLC** part.  
+Together, these sublayers host the following functional components:
+
+- **Transmission Buffer**: Stores incoming PDCP SDUs awaiting segmentation and transmission.  
+- **Segmentation**: Splits larger PDCP SDUs into smaller RLC PDUs that can be efficiently transmitted over the MAC layer.  
+- **Add RLC Header**: Appends RLC-specific headers carrying sequence numbers and control information to each PDU.  
+- **RLC Control**: Manages operational modes (Acknowledged, Unacknowledged, Transparent), sequence numbering, and delivery guarantees.  
+- **Retransmission Buffer**: Retains transmitted PDUs for potential retransmission in Acknowledged Mode (AM) to ensure reliability.
+
+
+### Massive MIMO

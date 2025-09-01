@@ -32,3 +32,32 @@ The selection of the functional splits has high influence on **latency, bandwidt
 #### Common Splits
 
 ![split_options](/img/common_functional_splits.svg)
+
+## Common Functional Splits in 4G/LTE & 5G/NR
+
+- **4G/LTE Split 8**  
+  - Split between the Radio Unit (RU) and Baseband Unit (BBU), at the I/Q sample level.  
+  - **Use case:** Requires fronthaul high-bandwidth, low-latency fronthaul (e.g., CPRI). Mostly used in traditional LTE C-RAN deployments.
+
+- **5G/NR Split 8**  
+  - Similar to LTE split 8 — division at the RF/PHY boundary (I/Q samples).  
+  - **Use case:** Provides full centralization of baseband processing, but needs very demanding fronthaul (not optimal for many 5G deployments).
+
+- **5G/NR Split 2**  
+  - Split between Packet Data Convergence Protocol (PDCP) and Radio Link Control (RLC).  
+  - **Use case:** Often used in dual connectivity or when coordinating between centralized and distributed units. More tolerant of latency, good for non-ideal backhaul.
+
+- **5G/NR Split 7.x**  
+  - A family of splits within the PHY layer (e.g., 7.1, 7.2, 7.3) that separate higher PHY from lower PHY functions.  
+  - **Use case:** Balance between centralization and fronthaul demand. Especially popular (Split 7.2) in O-RAN architectures since it allows flexible deployment with moderate fronthaul requirements.
+
+- ### 5G Split 7.2x (O-RAN Standard)
+
+    - Splits PHY into high-PHY (in DU) and low-PHY + RF (in RU).  
+    - **Why use it:** Lighter fronthaul load than Split 8, but still supports advanced features (MIMO, beamforming).  
+    - **Fronthaul:** Uses eCPRI over Ethernet, ~100 μs latency budget.  
+    - **Adoption:** De facto industry standard (O-RAN Alliance, major vendors).
+    - **The "x":** Refers to **where precoding happens** — e.g., in 7.2a precoding is done in the DU, in 7.2b it’s in the RU.  
+        - 7.2a = centralized intelligence, heavier fronthaul.
+        - 7.2b = lighter fronthaul, smarter/more complex radios.
+
