@@ -78,15 +78,8 @@ Run the gNB application:
 cd srsRAN_test_environment/srsRAN_Project/build/apps/gnb
 sudo ./gnb -c srsRAN_test_environment/oran-sc-ric/e2-agents/srsRAN/gnb_zmq.yaml
 ```
-Make sure the gNB application was built with XMQ support:
+> ⚠️ **Warning:** Make sure the gNB application was built with **ZMQ support** (see previous installation page).
 
-```bash
-cd srsRAN_test_environment/srsRAN_Project/
-mkdir -p build 
-cd build 
-cmake .. -DENABLE_EXPORT=ON -DENABLE_ZEROMQ=ON
-make
-```
 
 You should see a successful connection to the Near-RT RIC and the 5G Core network via its AMF. The output should look similar to:
 

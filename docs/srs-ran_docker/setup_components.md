@@ -54,3 +54,94 @@ For Docker-based compilation, the script uses the project’s own Dockerfiles wh
 ### Additional Notes
 
 - The **srsUE** component, found in the [srsRAN_4G project](https://github.com/srsran/srsRAN_4G), cannot be built locally on macOS due to the lack of TUN/TAP support. It must therefore be compiled and run inside a Docker container.
+
+## Manual Compiliation of all Components
+
+**1. Dockerized near-rt RIC (`oran-sc-ric`)**
+
+To compile and run the near real-time RIC, execute the following commands:
+
+```bash
+cd oran-sc-ric
+docker compose build
+```
+
+**2. 5GC Core (`srsRAN_Project`)**
+
+To compile the 5G core, run:
+
+```bash
+cd srsRAN_Project/docker
+docker compose build 5gc
+```
+
+**3. Compile gNB locally (`srsRAN_Project`)**
+
+> ⚠️ **Warning:** Currently only working on Ubuntu (no macOS support).
+
+To install the gNB locally the following packages must be preinstalled: 
+
+```bash
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libdw-dev \
+    binutils-dev \ 
+    libdwarf-dev \
+    libelf-dev \
+    pkg-config \
+    libfftw3-dev \
+    libyaml-cpp-dev \
+    libmbedtls-dev \
+    doxygen \
+    libsctp-dev \
+    libzmq3-dev \
+    libzmq5
+```
+
+The configuration is done using cmake followed by the compilation extablished by the following parameters: 
+
+```bash
+cd srsRAN_Project
+mkdir build
+cd build
+
+cmake .. -DENABLE_EXPORT=ON -DENABLE_ZEROMQ=ON
+make -j"$(nproc)"
+```
+
+We set the following parameters: 
+    - **ENABLE_EXPORT:** Makes selected libraries available for other software to link to; when ON, libraries are compiled in PIC mode, a dummy target (`srsran_exported_libs`) is created to build all exported libraries at once, and the macro `ADD_TO_EXPORTED_LIBS` can tag libraries for export and installation.
+    - **ENABLE_ZEROMQ:** Required for Split-8 configurations. In addition, since our UE uses a ZMQ-based RF driver, ZMQ must be enabled for both the UE and the gNB to allow inter-process communication, control messaging, and integration with external controllers or monitoring applications.
+
+**4. Compile UE locally (`srsRAN_Project`)**
+
+> ⚠️ **Warning:** Currently only working on Ubuntu (no macOS support).
+
+In order to compile the UE locally the following packages must be preinstalled: 
+
+```bash
+    apt-get install build-essential \
+    cmake \
+    git \
+    pkg-config \
+    libfftw3-dev \
+    libzmq3-dev \
+    libmbedtls-dev \
+    libsoapysdr-dev \
+    soapysdr-tools \
+    libboost-all-dev \
+    libsctp-dev \
+    lksctp-tools \
+    libconfig++-dev
+```
+
+To compile the demo on a local Ubuntu machine run the following command: 
+
+```bash
+cd srsRAN_4G
+mkdir build
+cd build
+cmake ..
+make -j"$(nproc)"
+```
