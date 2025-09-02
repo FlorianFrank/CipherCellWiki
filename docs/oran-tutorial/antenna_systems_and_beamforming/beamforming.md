@@ -1,7 +1,7 @@
 ---
 id: beamforming
 title: Beamforming 
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 **Beamforming** is a signal processing technique used in modern wireless communication systems to direct radio signals more precisely toward specific users or devices, instead of broadcasting uniformly in all directions.  
