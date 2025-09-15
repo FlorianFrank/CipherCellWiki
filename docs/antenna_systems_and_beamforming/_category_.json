@@ -1,0 +1,10 @@
+{
+  "label": "Introduction to the 5G Physical Layer",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "This section introduces antenna design principles, massive MIMO, and beamforming techniques. It explains how multiple antenna elements are combined to create directed signals, improve coverage, increase capacity, and reduce interference in 5G and O-RAN networks."
+
+  }
+}
+
