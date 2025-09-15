@@ -33,7 +33,7 @@ station** to dramatically increase capacity, energy efficiency, and spatial mult
 In such systems the transmission and reception can be expressed as:
 
 $$
-< F(H W x + n)
+y = F(H W x + n)
 $$
 
 Where:
