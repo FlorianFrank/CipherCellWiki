@@ -25,7 +25,12 @@ the transmitter and receiver**. This technique offers several advantages:
   transmission.
 - **Higher Link Capacity:** Parallel data streams increase throughput and overall spectral efficiency.
 
-In **MIMO** systems the transmission and reception can be expressed as:
+## Massive MIMO
+
+**Massive MIMO** extends the MIMO concept by using **very large numbers of antennas (tens or hundreds) at the base
+station** to dramatically increase capacity, energy efficiency, and spatial multiplexing.
+
+In such systems the transmission and reception can be expressed as:
 
 $$
 < F(H W x + n)
